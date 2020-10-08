@@ -1,0 +1,45 @@
+.menu {
+    list-style-type: none;
+    background-color: $bg-color;
+    margin: 0;
+    margin-top: 4rem;
+    padding: 0;
+    width: 16rem;
+}
+
+.btn-navbar {
+    background-color: $bg-color;
+    color: white;
+    padding: 0;
+    padding-left: 2rem;
+    outline: none;
+    border: none;
+    border-left: 2px solid grey;
+}
+
+.btn-navbar:focus {
+    outline: none;
+}
+
+.btn-navbar:hover {
+    border-left: 2px solid white;
+    color: grey;
+}
+
+.active {
+    color: grey;
+    border-left: 2px solid white;
+}
+
+.a-navbar {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    padding-left: 2rem;
+    border-left: 2px solid grey;
+}
+
+

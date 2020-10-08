@@ -1,0 +1,126 @@
+/*OPENING*/
+.card-opening {
+    width: 29.25rem;
+    height: 39.625rem;
+    background-color: $bg-color;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 0;
+}
+
+.img-opening {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-body-opening {
+    padding: 0;
+    display: block;
+}
+
+.head-opening {
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+.text-opening {
+    padding-top: 2rem; 
+    display: block;
+}
+
+/*SERVICES*/
+
+.card-services {
+    background-color: $bg-color;
+    max-width: 77.25rem;
+}
+
+.card-body-services {
+    padding: 0;
+}
+
+.services-text {
+    max-width: 23.25rem;
+    max-height: 12rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+/*SKILLS*/
+
+.card-skills {
+    background-color: $bg-color;
+    max-width: 68.25rem;
+}
+
+.card-body-skills {
+    display: block;
+    padding: 0;
+}
+
+/*FACTS*/
+
+.card-facts {
+    background-color: $bg-color;
+    max-width: 61.375rem;
+}
+
+.card-body-facts {
+    display: block;
+    padding: 0;
+}
+
+.fact {
+    color: grey;
+}
+
+.facts-number {
+    display: block;
+}
+
+/*REFERENCES*/
+
+.card-refer {
+    background-color: $bg-color;
+    max-width: 68rem;
+}
+
+.img-refer {
+    margin-top: 1rem;
+    max-height: 2.5rem;
+    width: auto;
+}
+
+
+
+/*PROJECTS*/
+
+.card-project {
+    background-color: $bg-color;
+    max-width: 77.25rem;
+    margin: 0;
+}
+
+.img-project {
+    width: 23.25rem;
+}
+
+/*CONTACT*/
+
+.card-contact {
+    background-color: $bg-color;
+    max-width: 69.375rem;
+    margin: 0;
+    margin-bottom: 6.875rem;
+    padding: 0;
+}
+
+.info-text {
+    display: block;
+}
+
+.info-head {
+    color: lightgrey; 
+    padding-bottom: 1.5rem; 
+    display: block;
+}
