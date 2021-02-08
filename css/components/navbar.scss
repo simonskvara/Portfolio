@@ -2,9 +2,13 @@
     list-style-type: none;
     background-color: $bg-color;
     margin: 0;
-    margin-top: 4rem;
     padding: 0;
     width: 16rem;
+    position: fixed;
+    top: 0;
+    margin-top: 6rem;
+    right: 0;
+    margin-right: 6rem;
 }
 
 .btn-navbar {

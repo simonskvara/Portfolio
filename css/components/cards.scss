@@ -4,7 +4,6 @@
     height: 39.625rem;
     background-color: $bg-color;
     margin-top: 4rem;
-    margin-bottom: 4rem;
     margin-left: 0;
 }
 
@@ -20,11 +19,38 @@
 
 .head-opening {
     display: block;
+    line-height: 0.5;
+    text-indent: 0%;
+}
+
+.head-opening:after {
+    content: "";
+    display: block;
+    width: 25%;
     border-bottom: 1px solid white;
+    padding-top: 6rem;
 }
 
 .text-opening {
     padding-top: 2rem; 
+    display: block;
+}
+
+/*About me*/
+
+.about-card {
+    background-color: transparent;
+    margin-bottom: 3rem;
+    max-width: 68.25rem;
+}
+
+.about-title {
+    margin-bottom: 4rem;
+}
+
+.about-text {
+    font-size: 1.75rem;
+    max-width: 68.25rem;
     display: block;
 }
 
@@ -45,6 +71,18 @@
     display: block;
     margin-top: 2rem;
 }
+
+.services-title {
+    font-size: 1.75rem;
+  }
+
+.services-number {
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 1;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
 
 /*SKILLS*/
 
@@ -103,6 +141,21 @@
 
 .img-project {
     width: 23.25rem;
+}
+
+.project-name {
+    font-size: 1.75rem; 
+    display: block;
+}
+
+.project-descrip {
+    color: grey; 
+    display: block;
+}
+
+.project {
+    padding-left: 1.25rem; 
+    cursor: pointer;
 }
 
 /*CONTACT*/

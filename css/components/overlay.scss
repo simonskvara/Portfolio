@@ -1,58 +1,42 @@
-#overlaySculpt, #overlayNanovo, #overlayBbop {
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.7);
-    z-index: 2;
-    padding-left: 7.875rem;
-    padding-right: 7.875rem;
-    
+.overlay-title {
+    font-size: 4rem;
 }
 
-.overlay-text {
-    display: block;
+.overlay-subtitle {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.overlay-tags {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.overlay-content {
+    font-size: 2rem;
+}
+
+.overlay-img {
     max-width: 50.25rem;
-    max-height: 52.25rem;
+    width: 100%;
 }
 
-#overlayMessage {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.7);
-    z-index: 2;
+.modal-header {
+    border: none;
+}
+
+
+.modal-close {
+	width: 2.5rem;
+	height: 2.5rem;
+	background: transparent escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='41.414' height='41.414' viewBox='0 0 41.414 41.414'><g id='Close' transform='translate(-1582.293 -39.293)'><line x1='40' y2='40' transform='translate(1583 40)' fill='none' stroke='white' stroke-width='2'/><line x2='40' y2='40' transform='translate(1583 40)' fill='none' stroke='white' stroke-width='2'/></g></svg>")) no-repeat 50% / 100% 100%;
+	border: 0;
+}
+
+.modal-content {
+    background: transparent !important;
     padding-left: 7.875rem;
     padding-right: 7.875rem;
 }
-
-.overlay-message-text {
-    margin: 0 auto;
-    display: block;
-    max-width: 90.7rem;
-    max-height: 31rem;
-}
-
-@media only screen and (max-width: 800px) {
-	#overlaySculpt, #overlayNanovo, #overlayBbop {
-	  padding-left: 2rem; padding-right: 0;
-	}
-  }
-
-
-
-
-
-
-
-
-

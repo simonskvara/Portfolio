@@ -5,11 +5,16 @@
     border-left: 2px solid grey;
 }
 
-li.white-border {
-    border-left: 2px solid white;
+.exp-item {
     padding-left: 1rem;
+    margin-bottom: 5rem;
 }
 
-li.margin {
-    margin-bottom: 5rem;
+.exp-date {
+    color: lightgrey;
+}
+
+.card-exp {
+    max-width: 37rem;
+    background-color: black;
 }
